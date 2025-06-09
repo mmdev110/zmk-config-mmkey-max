@@ -23,15 +23,15 @@ config INPUT
     default y
 
 config ZMK_POINTING
-    default f
+    default n
 
 config SPI
-    default f
+    default n
 
 config PMW3610
-    default f
+    default n
 
 config PMW3610_SWAP_XY
-    default f
+    default n
 
 endif
