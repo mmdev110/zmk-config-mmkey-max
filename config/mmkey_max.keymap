@@ -1,11 +1,11 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <behaviors.dtsi>
+#include <behaviors.dts#in#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 //#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
-
 #define MOUSE 5
 
 &mt {
@@ -53,10 +53,13 @@
 
         default_layer {
             bindings = <
-&trans  &trans  &trans  &trans         &trans     &trans    &trans          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans         &kp TAB    &kp Q     &kp W           &kp E   &kp R   &kp T   &kp Y   &kp U
-&kp I   &kp O   &kp P   &kp BACKSPACE  &kp LCTRL  &kp A     &kp S           &kp D   &kp F   &kp G   &kp H   &kp J
-                &trans  &trans         &trans     &trans    &kp LEFT_SHIFT  &trans  &trans  &trans
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+            &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+&kp TAB         &kp Q  &kp W  &kp E  &kp R                        &kp T          &kp Y        &kp U                        &kp I      &kp O    &kp P          &kp BACKSPACE
+&kp LCTRL       &kp A  &kp S  &kp D  &kp F                        &kp G          &kp H        &kp J                        &kp K      &kp L    &kp SEMICOLON  &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V                        &kp B          &kp N        &kp M                        &kp COMMA  &kp DOT  &kp SLASH      &kp LEFT_ALT
+                                     &lt_to_layer_0 3 LANG_HANJA  &lt 2 SPACE    &lt 1 SPACE  &lt_to_layer_0 3 LANG_HANGEUL &trans &trans &trans &trans
+lt_to_layer_0 3 LANG_HANGEUL &trans &trans &trans &trans
             >;
         };
     };
