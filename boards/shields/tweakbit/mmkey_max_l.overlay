@@ -43,6 +43,6 @@
 };
 
 // Overrides for the input-split child node
-&trackball_peripheral_split {
-    device = <&trackball_peripheral>;
-};
+//&trackball_peripheral_split {
+//    device = <&trackball_peripheral>;
+//};
