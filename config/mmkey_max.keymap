@@ -26,6 +26,16 @@
             bindings = <&kp TAB>;
             key-positions = <12 13>;
         };
+
+        boot_left {
+            bindings = <&bootloader>;
+            key-positions = <0 36>;
+        };
+
+        boot_right {
+            bindings = <&bootloader>;
+            key-positions = <11 47>;
+        };
     };
 
     macros {
