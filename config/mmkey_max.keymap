@@ -73,11 +73,11 @@
 
         symbol {
             bindings = <
-&trans  &trans        &trans        &trans        &trans  &trans    &trans  &trans         &trans      &trans                &trans                 &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans    &trans  &kp MINUS      &kp EQUAL   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans    &trans  &kp SEMICOLON  &kp SQT     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0  &trans    &trans  &kp COMMA      &kp PERIOD  &kp SLASH             &kp BACKSLASH          &trans
-                      &trans        &trans        &trans  &trans    &trans  &trans         &trans      &trans
+&trans  &trans        &trans        &trans        &trans  &trans    &trans         &trans         &trans      &trans                &trans                 &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans    &kp GRAVE      &kp MINUS      &kp EQUAL   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans    &trans         &kp SEMICOLON  &kp SQT     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0  &trans    &kp BACKSLASH  &kp COMMA      &kp PERIOD  &kp SLASH             &trans                 &trans
+                      &trans        &trans        &trans  &trans    &trans         &trans         &trans      &trans
             >;
         };
 
