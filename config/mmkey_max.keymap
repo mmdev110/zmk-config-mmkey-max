@@ -46,6 +46,11 @@
             bindings = <&kp LANGUAGE_1>;
             key-positions = <46 45>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <34 33>;
+        };
     };
 
     macros {
@@ -83,11 +88,11 @@
 
         symbol {
             bindings = <
-&trans  &trans        &trans        &trans        &trans  &trans    &trans         &trans     &trans                &trans                 &trans             &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans    &kp GRAVE      &kp MINUS  &kp EQUAL             &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &trans
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans    &kp SEMICOLON  &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans             &trans
-&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0  &trans    &kp BACKSLASH  &kp COMMA  &kp PERIOD            &kp SLASH              &trans             &trans
-                      &trans        &trans        &trans  &trans    &trans         &trans     &trans                &trans
+&trans  &trans        &trans        &trans        &trans        &trans    &trans         &trans     &trans                &trans                 &trans             &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp GRAVE      &kp MINUS  &kp EQUAL             &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &trans
+&trans  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0    &kp SEMI       &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans             &trans
+&trans  &trans        &trans        &trans        &trans        &trans    &kp BACKSLASH  &kp COMMA  &kp PERIOD            &kp SLASH              &trans             &trans
+                      &trans        &trans        &trans        &trans    &trans         &trans     &trans                &trans
             >;
         };
 
